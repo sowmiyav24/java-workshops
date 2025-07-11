@@ -9,8 +9,9 @@ public class StudentListMergeExample {
         
         List<Integer> csRollNons= Arrays.asList(101,103,104,105);
         List<Integer> itRollNons= Arrays.asList(345,346,347,348);
-        list<Integer> allRollNons=Stream<T>.concat(csRollNons.stream(),itRollNons.stream() null)
-    
+        List<Integer> allRollNons=Stream.concat(csRollNons.stream(),itRollNons.stream()).toList();
+        System.out.println(allRollNons);
+
     }
 
 }
