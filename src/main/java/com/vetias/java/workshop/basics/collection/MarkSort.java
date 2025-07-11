@@ -6,7 +6,7 @@ import java.util.List;
 public class MarkSort {
     public static void main(String[] args) {
         List<Integer>marks= new ArrayList();
-        marks.add=()
+     
 
     
     }
