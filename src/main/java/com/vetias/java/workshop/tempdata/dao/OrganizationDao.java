@@ -24,6 +24,9 @@ public class OrganizationDao {
             System.out.println("Table created successfully.");
 
         }
+        catch (SQLException e) {
+            System.out.println("Error creating table: " + e.getMessage());
+        }
     }   
 }
 
